@@ -25,7 +25,7 @@
 body{
     font-size: 65.5%;
     font-family: 'Roboto', sans-serif;
-    position: absolute;
+
 }
 .img-sec{
     width: 500px;
@@ -165,11 +165,11 @@ body{
 
 }
 .section__title {
-  max-width: 80rem;
-  margin: 0 auto 8rem auto;
+  max-width: 50rem;
+  margin: 0 auto 2rem auto;
 }
 .section__header {
-  font-size: 4rem;
+  font-size: 2rem;
   line-height: 1.3;
   font-weight: 500;
 }
@@ -182,12 +182,6 @@ body{
   margin-bottom: 1rem;
   margin-top: 5%;
 }
-.section__header {
-  font-size: 4rem;
-  line-height: 1.3;
-  font-weight: 500;
-}
-
 
 @keyframes animate{
     /* 0%,10%,100%{
@@ -205,7 +199,7 @@ body{
 
 }
 .button{
-
+    margin-top: 5%;
     border: none;
     padding: 4% 8% 4% 8%;
     border: 1px solid #d2dbf8;
@@ -217,18 +211,16 @@ body{
     color: #d2dbf8;
     transition: 0.5s;
     letter-spacing: 4px; 
+    text-transform: uppercase;
 }
 .button:hover{
   background: #78340f;
   color: #d2dbf8;
-
 }
-
 /* OPERATIONS */
 .operations {
   max-width: 100rem;
-  margin: 12rem auto 0 auto;
-
+  margin: 1rem auto 0 auto;
   background-color: #fff;
 }
 
@@ -347,34 +339,28 @@ body{
 
 /* JOAN STYLES */
 
-.navbar{
-  width: 100%;
-  justify-content: space-between;
-}
-.navbar ul li{
-  margin: 2em;
-  list-style: none;
-  display: inline;
-  color: white;
-}
+
 .treat{
-  margin-top: 5%;
+  margin-top: 15%;
   width: 35%;
-  margin-left: 150px;
+  margin-left: 100px;
   font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 .treat2{
-  margin-top: 10%;
-  width: 35%;
+  margin-top: 15%;
+  
+  width: 50%;
   font-style: italic;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-right: 5%;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  margin-right: 10%;
 }
 /* #one{
 } */
 .content{
   width: 100%;
+  height: 700px;
+  /* margin-top: 20px; */
   display: flex;
   color: white;
   background-image: url(images/purple.jpeg);
@@ -382,22 +368,22 @@ body{
   background-size: cover;
 }
 #smoothie{
-  animation: bounce 3s infinite;
+  animation: bounce 2s infinite;
 }
 @keyframes bounce {
 0% {
   transform: translateY(0, 0);
 }
 50% {
-  transform: translateY(-40px);
+  transform: translateY(-50px);
 }
 100% {
   transform: translateY(0, 0);
 }
 }
 #smoothie{
-margin-top: -50%;
- margin-left: 40px;
+margin-top: 30%;
+ /* margin-left: 20px; */
 }
 .pur{
   width: 80%;
@@ -410,7 +396,7 @@ margin-top: -50%;
   height: 40px;
   margin-top: 40%;
   object-fit: contain;
-  animation: bounce 1.8s linear infinite ;
+  animation: bounce 1.5s linear infinite ;
 }
 @keyframes bounce {
 0% {
@@ -428,7 +414,7 @@ width: 150px;
 height: 40px;
 margin-top: 20%;
 object-fit: contain;
-animation: bounce 1.5s linear infinite ;
+animation: bounce 1s linear infinite ;
 }
 @keyframes bounce {
 0% {
@@ -472,6 +458,8 @@ animation: bounce 1.5s linear infinite ;
   color:rgb(238, 203, 238) ;
 }
 button{
+  text-transform: uppercase;
+  margin-top: 10%;
   background-color: transparent;
   color: white;
   padding: 15px 30px 15px 30px;
@@ -493,24 +481,19 @@ button{
 #one{
   font-size: 18px;
   font-weight: lighter;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   text-shadow: 20px;
+}
+.sec-paragraph{
+  font-size: 20px;
+
 }
 /* JOAN ENDS HERE */
 
 
-
-
-
- 
-
-
-
 /* kevine and lucky */
-
-
 .main{
+  height: 600px;
   margin: 0;
   background-color: rgb(59,30,3);
   background: radial-gradient(circle, rgba(59,30,3,1) 17%, rgba(0,0,0,1) 100%);
@@ -530,6 +513,7 @@ display: flex;
 }
 
 .words{
+font-size: 1rem;
 height: 50px;
 align-items: center;
 justify-content: space-around;
@@ -718,10 +702,13 @@ justify-content: center;
    text-align: center;
 }
 #fix1{
-margin-right: 4%;   
+margin-right: 4%;
+letter-spacing: 1px;
 }
 #fix3{
 margin-right: 5%;
+letter-spacing: 1px;
+
 }
 
 
