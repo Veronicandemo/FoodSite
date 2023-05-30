@@ -220,9 +220,10 @@ body{
 /* OPERATIONS */
 .operations {
   max-width: 100rem;
-  margin: 1rem auto 0 auto;
+  margin: 8rem auto 0 auto;
   background-color: #fff;
 }
+
 
 .operations__tab-container {
   display: flex;
@@ -250,6 +251,7 @@ body{
   width: 80%;
   margin: 0 auto;
   margin-bottom: 2%;
+  border-radius: 5px;
 
   /* JUST PRESENTATIONAL */
   font-size: 1.2rem;
@@ -266,25 +268,21 @@ body{
 .operations__header {
   font-size: 2.25rem;
   font-weight: 500;
-  align-self: center;
+  margin-top: -9%;
+  margin-left: 5%;
 }
-
 .operations__icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 7rem;
-  width: 7rem;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
 }
-
-.operations__icon svg {
-  height: 2.75rem;
-  width: 2.75rem;
-}
-
 .operations__content p {
   grid-column: 2;
+  margin-top: -20%;
+  margin-left: 5%;
 }
 .operations__icon--1 {
   background-color: var(--color-secondary-opacity);
@@ -334,9 +332,11 @@ body{
   cursor: pointer;
   transition: all 0.3s;
 }
-
-
-
+.cup1{
+  border-radius: 100px;
+  width: 90%;
+  height: 90%;
+}
 /* JOAN STYLES */
 
 
@@ -359,7 +359,7 @@ body{
 } */
 .content{
   width: 100%;
-  height: 700px;
+  /* height: 700px; */
   /* margin-top: 20px; */
   display: flex;
   color: white;
@@ -367,8 +367,26 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* #smoothie{
+  position: relative;
+  transition: 0.5s;
+} */
+
+/* .slide-in-left {
+  left: -100%;
+}
+
+.slide-in-right {
+  right: -100%;
+}
+
+.slide-in.show {
+  left: 0;
+  right: 0;
+} */
 #smoothie{
-  animation: bounce 2s infinite;
+  animation: bounce 1s  infinite;
+
 }
 @keyframes bounce {
 0% {
@@ -382,7 +400,7 @@ body{
 }
 }
 #smoothie{
-margin-top: 30%;
+margin-top: -30%;
  /* margin-left: 20px; */
 }
 .pur{
@@ -393,17 +411,17 @@ margin-top: 30%;
 }
 .purpley{
   width: 150px;
-  height: 40px;
-  margin-top: 40%;
+  height: 60px;
+  margin-top: 30%;
   object-fit: contain;
   animation: bounce 1.5s linear infinite ;
 }
 @keyframes bounce {
 0% {
-  transform: translateY(0, 0);
+  transform: translateY(0 0);
 }
 50% {
-  transform: translateY(-40px);
+  transform: translateY(-50px);
 }
 100% {
   transform: translateY(0, 0);
@@ -411,7 +429,7 @@ margin-top: 30%;
 }
 .purpley1{
 width: 150px;
-height: 40px;
+height: 60px;
 margin-top: 20%;
 object-fit: contain;
 animation: bounce 1s linear infinite ;
@@ -421,7 +439,7 @@ animation: bounce 1s linear infinite ;
   transform: translateY(0, 0);
 }
 50% {
-  transform: translateY(-40px);
+  transform: translateY(-50px);
 }
 100% {
   transform: translateY(0, 0);
@@ -457,7 +475,7 @@ animation: bounce 1s linear infinite ;
 #del{
   color:rgb(238, 203, 238) ;
 }
-button{
+.buttn{
   text-transform: uppercase;
   margin-top: 10%;
   background-color: transparent;
@@ -693,13 +711,17 @@ to{
 } 
 
 footer{
-background-color: black;
+/* background-color: black; */
 color: white;
 align-items: center;
 justify-content: center;
+margin:0;
+padding-bottom: 0%;
 }
 .rights{
-   text-align: center;
+   /* text-align: center; */
+   margin-left: 38%;
+   margin-top: 3%;
 }
 #fix1{
 margin-right: 4%;
@@ -710,6 +732,12 @@ margin-right: 5%;
 letter-spacing: 1px;
 
 }
+.all{
+ text-align: center;
+ 
+ font-family: 'Roboto', sans-serif;
+}
+
 
 
 /* end of lucky and kevine */
